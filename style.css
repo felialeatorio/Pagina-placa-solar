@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:ital,wght@0,200;1,300&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:ital,wght@0,200;1,300&family=Sarala:wght@700&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+
+body{
+    background-color:white;
+}
+
+/* Menu*/
+.mainhome{ 
+    padding-top: 50px;
+    background: rgb(34,69,123);
+    background: linear-gradient(0deg, rgba(34,69,123,1) 0%, rgba(137,166,213,1) 100%);
+    
+}
+.menu {
+    background-color: rgb(34,69,123);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.menu ul {
+    list-style: none;
+    display: inline-block;
+    padding:20px;
+}
+
+.menu ul li{
+    padding: 10px;
+    display: inline;
+}
+
+.menu ul li a{
+
+    color: #f19100;
+    text-decoration: none;
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    padding:20px;
+    transition:background .6s;
+}
+
+.menu ul li a:hover{
+   background-color: #1f9906;
+    color: #ffe0b3;
+}
+
+.planetmain{
+    float: right;
+    left: 67%;
+    top: 10%;
+    opacity:0.8;
+
+}
+.conteudo1{
+    margin-left: 10%;
+    margin-right: 50%;
+}
+
+.conteudo1 h1{
+    color: #f19100;
+    font-size: 40px;
+}
+.conteudo1 h3{
+    padding-top: 3%;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.conteudo2{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 50%;
+    padding-bottom: 5%;
+}
+
+.conteudo2 h2{
+    color: #f19100;
+    font-size: 40px;
+    padding-bottom: 10%;
+}
+
+.bt1{
+    margin-left: 25%;
+}
+
+.bt1 button {
+    background-color: #f19100;
+    width: 190px;
+    height: 90px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;;
+    font-size: 25px;
+    color: black;
+    transition: background .5s;
+    transition: transform .5s;
+    
+}
+
+.bt1 button:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    background-color: #f87f0e;
+    color: black;
+}
+.conteudo3 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.conteudo3-titulo{
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+iframe{
+    text-align: center;
+    padding-bottom: 20px;
+    display:flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin-top: 3%;
+}    
+/*menu final */
+
+/*pagina beneficios*/
+
+.beneficiosimg{
+    text-align: center;
+    box-shadow: 0 0 1em black;
+    display:flex;
+    flex-direction: row;
+    width: 70%;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    opacity:0.8;
+    transition: .6s;
+}
+
+.beneficiosimg:hover{
+    opacity:1;
+}
+
+.beneficiostxt{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.beneficiostxt h1{
+    color:#302b2b;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.beneficiostxt h2{
+    font-size:25px;
+    color:#302b2b;
+    padding-top:30px;
+    padding-bottom:10px;
+    text-align: center;
+}
+
+.beneficiostxt p{
+    font-size:15px;
+    color:#635d5d;
+    padding-bottom:20px;
+}
+
+#paragrafofinal{
+    margin-bottom: 5%;
+}
+
+.beneficiostxt a{
+    display:inline-block;
+    color:#f19100;
+    text-decoration:none;
+    transition: .4ms;
+}
+.beneficiostxt a:hover{
+    margin-left: 20px;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+/* Fim da pagina beneficios*/
+
+.comofuncionatxt{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.comofuncionatxt h1{
+    color:#302b2b;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.comofuncionatxt h2{
+    font-size:25px;
+    color:#302b2b;
+    padding-top:30px;
+    padding-bottom:10px;
+    text-align: center;
+}
+
+.comofuncionatxt h3{
+    font-size:20px;
+    color:#302b2b;
+    padding-top:30px;
+    padding-bottom:10px;
+}
+
+.comofuncionatxt p{
+    font-size:15px;
+    color:#635d5d;
+    padding-bottom:20px;
+}
+
+.comofuncionatxt ul{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+.comofuncionatxt ol{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+.comofuncionatxt li{
+    font-weight: bold;
+    color:#252222;
+    padding: 10px;
+}
+
+.importante{
+    margin-bottom:5%;
+}
+
+/* Imagem da página como_funciona */
+.imagem-como-funciona {
+    text-align: center;
+    box-shadow: 0 0 1em black;
+    display:flex;
+    flex-direction: row;
+    width: 70%;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    opacity:0.8;
+    transition: .6s;
+}
+
+.imagem-como-funciona:hover{
+    opacity:1;
+}
+
+/* Início do accordion da página como_funciona */
+.accordion .contentBx p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+
+.accordion {
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    max-width: 990px;
+}
+
+.accordion .contentBx {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+}
+
+.accordion .contentBx .label {
+    position: relative;
+    display: inline-block;
+    padding: 10px 312px;
+    background: #FFD700;
+    opacity: 87%;
+    cursor: pointer;
+    z-index:1000;
+}
+
+.accordion .contentBx .content {
+    position: relative;
+    text-align: justify;
+    background: #FFD700;
+    opacity: 87%;
+    height: 0px;
+    width: 958px;
+    padding: 0px 10px;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: hidden;
+}
+
+.accordion .contentBx.active .content {
+    height: 350px;
+    width: 958px;
+    padding: 0px 10px;
+    overflow-y: hidden;
+}
+
+.accordion .contentBx.active .label .gif-como-funciona {
+    display: none;
+}
+
+.titulo-como-funciona {
+    display: inline;
+    vertical-align: top;
+    margin: 15px;
+}
+
+.gif-como-funciona {
+    display: inline;
+    position: absolute;
+    width: 9%;
+    top: -3px;
+    left: 749px;
+    transform: rotate(335deg);
+}
+
+.content p{
+    padding:10px
+}
+/* Fim do accordion da página como_funciona */
+
+.opoderdosolimg{
+    text-align: center;
+    box-shadow: 0 0 1em black;
+    display:flex;
+    flex-direction: row;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    opacity:0.8;
+    transition: .6s;
+}
+
+.opoderdosolimg:hover{
+    opacity:1;
+}
+
+.opoderdosoltxt{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.opoderdosoltxt h1{
+    color:#302b2b;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.opoderdosoltxt h2{
+    font-size:25px;
+    color:#302b2b;
+    padding-top:30px;
+    padding-bottom:10px;
+    text-align: center;
+}
+
+.opoderdosoltxt p{
+    font-size:15px;
+    color:#635d5d;
+    padding-bottom:20px;
+}
+
+#paragrafofinal{
+    margin-bottom: 5%;
+}
+
+.opoderdosoltxt a{
+    display:inline-block;
+    color:#f19100;
+    text-decoration:none;
+    transition: .4ms;
+}
+
+.opoderdosoltxt a:hover{
+    margin-left: 20px;
+    margin-right: 20px;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+
+/*CSS começo pagina onde encontrar*/
+.empresastxt img{
+    display:flex;
+    flex-direction: row;
+    width: 450px;
+}
+.empresastxt p{
+    font-size:19px;
+    color: rgb(66, 63, 63);
+    text-align: center;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.empresas{
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+    text-align: center;
+}
+
+
+.empresas a{
+    background-color: #005176;
+    color:#f3f2f2;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;  
+    transition: background .4s;
+    border-radius: 4%;
+}
+.empresas a:hover{
+    color:#242021;
+    background-color: #fff;
+}
+
+.empresas img{
+    border-radius: 50%;
+}
+.empresas li{
+    display: inline-block;
+    padding: 50px;
+}
+/*CSS final da página onde encontrar*/
+
+/* Página quem somos*/
+.quemsomos{
+    text-align: center;
+}
+.quemsomostxt img{
+    display:flex;
+    flex-direction: row;
+    width: 450px;
+}
+.quemsomostxt p{
+    font-size:17px;
+    color: rgb(66, 63, 63);
+    text-align: center;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.quemsomostxt h2{
+    font-size:40px;
+    color: rgb(36, 34, 34);
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.quemsomos img{
+    margin :20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   
+}
+
+.quemsomos li{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    display: inline-block;
+    padding:5%;
+}
+
+/*Rodapé*/
+.rodape {
+   
+    background-color: rgb(13, 40, 82);
+    font-size: 15px;
+    color: #f19100;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Sarala', sans-serif;
+}
+
+.rodape-img{
+    width: 200px;
+}
+.colab{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+
+.rodape section{
+    display:inline-block;
+    background: white;
+    border-radius: 5%;
+    padding: 15px;
+    width: 500px;
+    margin-top: 3%;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.rodape input{
+    border-radius: 50px;
+}

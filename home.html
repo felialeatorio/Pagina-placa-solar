@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energia e placa solar</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header class="o-header">
+
+        <nav class="menu">
+                <ul>
+                    <li><a href="./home.html">Home</a></li>    
+                    <li><a href="./opoder.html">O Poder do Sol</a></li>    
+                    <li><a href="./beneficios.html">Benefícios</a></li>    
+                    <li><a href="./como_funciona.html">Como Funciona?</a></li>    
+                    <li><a href="./onde_encontrar.html">Onde Encontrar?</a></li>     
+                    <li><a href="./quem_somos.html">Quem Somos?</a></li>       
+                </ul>
+        </nav>
+        
+    </header>
+    
+
+    <main class="o-main">
+        <nav class=mainhome>
+       <img class="planetmain" width="470" src="../img/planet.png" alt="imagem do planeta com decorações de placa solar">
+        <section class="conteudo1">
+            <div>
+                <h1>Você pode economizar e cuidar do planeta!</h1>
+                <h3>Entenda como você pode utilizar a energia do sol na sua casa e
+                    colaborar com o planeta.</h3>
+            </div>
+
+            </div>
+        </section>
+
+        <section class="conteudo2">
+            <div>
+                <h2>Tenha placas solares na sua casa!</h2>
+                <div class="bt1">
+                     <a href="./como_funciona.html"><button >Quero saber mais</button></a>
+                </div>
+            </div>
+
+        </section>        
+        
+           <section class="conteudo3">
+               <h2 class="conteudo3-titulo"> Confira nosso vídeo de apresentação:</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SrWtTDC9iQA"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+           </section>
+     </nav>
+    </main>
+
+    <footer class="rodape">
+
+        <div>
+             <img class="rodape-img" src="../img/quasartechwhite.png" alt="Logo da equipe Quasar Tech">
+             <h4>Quasar Tech</h4>
+             <p>2022</p>
+             <p>Colaboradores:</p>
+             <div class="colab">
+                 <p>IMED</p>
+                 <p>Embaixadores da educação</p>
+                 <p>Avanade</p>
+             </div>
+         </div>
+         <section>
+            <div>
+                <h1> 
+                    <font face="Harlow Solid Italic" color= "black">Preencha os dados para se cadastrar e receber mais informações!</font></h1>
+                Nome: <input  type= "text" name= "nome" id="txtname" placeholder="primeiro nome"/> <br></br>
+                Sobrenome: <input type="text" name="sobrenome" id="txtsobre"/> <br></br> 
+                Nascimento: <input type="date" name="nascimento" placeholder="Data do nascimento" id ="datenasc" /> <br></br> 
+                Telefone: <input type="number" name="telefone" id="numphone"  placeholder="Telefone com ddd"/> <br></br>
+                CPF: <input type="number" name="CPF" id="numcpf"/> <br></br>
+                E-mail: <input type="email" name="email" id="email"/> <br></br> 
+                Senha: <input type="password" name="senha" id = "senha"/> <br></br> 
+                Endereço: <input type="text" name="endereço" id="txtend"/> <br></br>
+    
+    
+                <label color="white"> Sexo </label><br><br>
+                <input type= "radio" name= "sexo"  value= "M" checked="checked"/>Masculino
+                <input type= "radio" name= "sexo" value= "F" /> Feminino
+                <input type= "radio" name= "sexo"  value= "NB"/>Não-binário
+                <input type= "radio" name= "sexo"  value= "ot"/>Outro
+    
+                
+    
+                
+                 
+            </div>
+            <div>
+                <br><input type="submit" name= "enviar" value="Salvar" onclick="validacao()"/>
+            </div>
+  
+     </footer>
+
+</body>
+<script src="script.js"></script>
+<script src="../javascript/principal.js"></script>
+</html>
